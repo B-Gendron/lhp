@@ -71,6 +71,12 @@ ui <- function(request){
                      selected = "right",
                      inline = TRUE),
         hr(),
+        radioButtons(inputId = "swallowing_difficulties",
+                     label = "Does the patient have swallowing difficulties?",
+                     choices = c("yes", "no"),
+                     selected = "right",
+                     inline = TRUE),
+        hr(),
         radioButtons(inputId = "yellow_fingers",
                      label = "Does the patient have yellow fingers?",
                      choices = c("yes", "no"),
@@ -91,7 +97,8 @@ ui <- function(request){
 
       mainPanel(
         tabsetPanel(
-          # TBC
+          tabPanel("Smoking", renderPrint("testPrint")),
+          tabPanel("Prediction statement", renderPrint("patientOutcome")),
           tabPanel("patients data table", DT::dataTableOutput("mytable")),
         )
       )
