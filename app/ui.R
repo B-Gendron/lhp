@@ -103,8 +103,7 @@ ui <- function(request){
 
       mainPanel(
         tabsetPanel(
-          tabPanel("Smoking", renderPrint("testPrint")),
-          tabPanel("Prediction statement", renderPrint("patientOutcome")),
+          tabPanel("Prediction statement", textOutput("patientOutcome")),
           tabPanel("patients data table", DT::dataTableOutput("mytable")),
         )
       )
