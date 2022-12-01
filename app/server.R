@@ -61,7 +61,7 @@ server <- function(session, input, output) {
   })
 
   # test output to see if it renders something
-  output$testPrint <- renderPrint(smoking_selected())
+  output$testPrint <- renderPrint(age_selected())
 
   output$patientOutcome <- renderPrint(outcome(get_new_patient(
                                   gender2letter(gender_selected()),
