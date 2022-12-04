@@ -83,6 +83,14 @@ server <- function(session, input, output) {
     DT::datatable(preprocess_data(patients), options = list(lengthMenu = c(5, 30, 50), pageLength = 5))
   })
 
-  output$userGuide <- includeMarkdown("user_guide_en.md")
+  output$userGuideEn <- renderUI({
+    HTML(markdown::renderMarkdown(knit('user_guide_en.md', quiet=TRUE)))
+  })
+  output$userGuideFr <- renderUI({
+    HTML(markdown::renderMarkdown(knit('user_guide_fr.md', quiet=TRUE)))
+  })
+  output$userGuideLu <- renderUI({
+    HTML(markdown::renderMarkdown(knit('user_guide_lu.md', quiet=TRUE)))
+  })
 
 }
