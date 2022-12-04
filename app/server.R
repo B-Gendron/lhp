@@ -83,4 +83,6 @@ server <- function(session, input, output) {
     DT::datatable(preprocess_data(patients), options = list(lengthMenu = c(5, 30, 50), pageLength = 5))
   })
 
+  output$userGuide <- includeMarkdown("user_guide_en.md")
+
 }
