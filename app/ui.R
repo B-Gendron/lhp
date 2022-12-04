@@ -104,10 +104,10 @@ ui <- function(request){
       mainPanel(
         tabsetPanel(
           tabPanel("Prediction statement", textOutput("patientOutcome")),
-          tabPanel("patients data table", DT::dataTableOutput("mytable")),
-          tabPanel("User guide", uiOutput("userGuideEn")),
-          tabPanel("Guide de l'utilisateur", uiOutput("userGuideFr")),
-          tabPanel("Benotzer Guide", uiOutput("userGuideLu")),
+          tabPanel("Patients data table", DT::dataTableOutput("mytable")),
+          tabPanel("EN - user guide", uiOutput("userGuideEn")),
+          tabPanel("FR - guide de l'utilisateur", uiOutput("userGuideFr")),
+          tabPanel("LU - Benotzer Guide", uiOutput("userGuideLu")),
         )
       )
     )
