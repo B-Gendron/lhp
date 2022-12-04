@@ -12,7 +12,21 @@ It is clear that LHP does not replace a medical consultation with a health profe
 
 ## Get started with the app
 
+### Launching a prediction
 
+In the left pane is the questionnaire to complete to obtain a prediction. It is necessary to fill in all the entries to obtain a relevant result. For all questions except age, check the most appropriate box. For age, you can either enter the patient's age in the field (using numbers only) or use the arrows to the right of the field.
+
+Once all the fields are completed, click on `Run prediction` to start the prediction.
+
+![`Run prediction` button](run-prediction.png)
+
+The calculation of the prediction is almost immediate. If you don't see it appear on the main screen, it's probably because you're in the wrong navigation tab. Be sure to select the `Prediction statement` tab, top left of the main screen.
+
+![Prediction statement tab](prediction-statement.png)
+
+### Dataset Visualization
+
+To view the dataset, just go to the `Patients data table` tab.
 
 ## Technical specifications
 
