@@ -18,11 +18,15 @@ Dans le volet de gauche se trouve le questionnaire à remplir pour obtenir une p
 
 Une fois tous les champs complétés, cliquez sur `Run prediction` pour lancer la prédiction.
 
-<span style="display:block;text-align:center">![Run prediction](run-prediction.png)</span>
+<span style="display:block;text-align:center">
+<img src="run-prediction.png" alt="run prediction" width="5700"/>
+</span>
 
 Le calcul de la prédiction est preque immédiat. Si vous ne le voyez pas apparaître sur l'écran principal, c'est certainement parce que vous n'êtes pas dans le bon onglet de navigation. Assurez-vous de sélectionner l'onglet `Prediction statement`, en haut à gauche de l'écran principal. 
 
-<span style="display:block;text-align:center">![Prediction statement](prediction-statement.png)</span>
+<span style="display:block;text-align:center">
+<img src="prediction-statement.png" alt="prediction statement" width="700"/>
+</span>
 
 ### Visualisation du jeu de données
 

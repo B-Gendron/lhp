@@ -19,13 +19,13 @@ In the left pane is the questionnaire to complete to obtain a prediction. It is 
 Once all the fields are completed, click on `Run prediction` to start the prediction.
 
 <span style="display:block;text-align:center">
-<img src="run-prediction.png" alt="run prediction" width="500"/>
+<img src="run-prediction.png" alt="run prediction" width="700"/>
 </span>
 
 The calculation of the prediction is almost immediate. If you don't see it appear on the main screen, it's probably because you're in the wrong navigation tab. Be sure to select the `Prediction statement` tab, top left of the main screen.
 
 <span style="display:block;text-align:center">
-<img src="prediction-statement.png" alt="prediction statement" width="400"/>
+<img src="prediction-statement.png" alt="prediction statement" width="700"/>
 </span>
 
 ### Dataset Visualization

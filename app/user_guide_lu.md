@@ -18,11 +18,15 @@ An der lénker Fënster ass de Questionnaire fir auszefëllen fir eng Prognose z
 
 Wann all d'Felder ofgeschloss sinn, klickt op 'Run Prediction' fir d'Prognose unzefänken.
 
-<span style="display:block;text-align:center">![Run prediction](run-prediction.png)</span>
+<span style="display:block;text-align:center">
+<img src="run-prediction.png" alt="run prediction" width="700"/>
+</span>
 
 D'Berechnung vun der Prognose ass bal direkt. Wann Dir se net um Haaptbildschierm gesitt, ass et wahrscheinlech well Dir an der falscher Navigatiounstab sidd. Gitt sécher de Tab "Prediction Statement" ze wielen, uewe lénks vum Haaptbildschierm.
 
-<span style="display:block;text-align:center">![Prediction statement](prediction-statement.png)</span>
+<span style="display:block;text-align:center">
+<img src="prediction-statement.png" alt="prediction statement" width="700"/>
+</span>
 
 ### Dataset Visualiséierung
 
