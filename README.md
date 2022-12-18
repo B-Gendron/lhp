@@ -27,5 +27,5 @@ docker build -t image_app .
 - **Run** the pipeline
 
 ```
-docker run --rm -ti --name lhp_app image_app 
-```
+docker run --rm -ti -p 3838:3838 --name lhp_app image_app  
+``` 
