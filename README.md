@@ -18,7 +18,7 @@ By the way, this README is widely inspired from some that the author of this e-b
 git clone git@github.com:B-Gendron/lhp.git
 ```
 
-- Go in the folder where you cloned the repo and use this command to **build the image**
+- Go in the folder where you cloned the repo thanks to `cd lhp` command and use the following command to **build the image**
 
 ```
 docker build -t image_app .
