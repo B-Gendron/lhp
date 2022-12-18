@@ -1,3 +1,5 @@
+# If you are not using an M1 Apple computer, uncomment  the following line
+#FROM brodriguesco/r421_rap:version1
 FROM bgendron/r421_m1:version1
 
 RUN R -e "devtools::install_github('B-Gendron/lunglog')"
