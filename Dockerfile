@@ -4,7 +4,6 @@ CMD R -e "devtools::install_github('B-Gendron/lunglog')"
 
 WORKDIR /home/app
 COPY app .
-RUN chown app:app -R /home/app
 USER app
 EXPOSE 3838
 
