@@ -21,11 +21,11 @@ git clone git@github.com:B-Gendron/lhp.git
 - Go in the folder where you cloned the repo and use this command to **build the image**
 
 ```
-docker build -t image_app
+docker build -t image_app .
 ```
 
 - **Run** the pipeline
 
 ```
-docker run --rm --name lhp_app 
+docker run --rm -ti --name lhp_app image_app 
 ```
