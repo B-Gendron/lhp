@@ -6,4 +6,6 @@ WORKDIR /home/app
 
 COPY app .
 
+CMD R -e "library(lunglog)"
+
 CMD R -e "shiny::runApp('/home/app')"
