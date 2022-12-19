@@ -1,3 +1,5 @@
+shiny::addResourcePath('www', './www')
+
 ui <- function(request){
   fluidPage(
 
