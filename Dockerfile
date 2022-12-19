@@ -4,11 +4,11 @@
 FROM bgendron/r421_m1:version1
 
 # Load an additional dev library to deal with the images in the app
-RUN apt-get update && apt-get install -y libxt6
+#RUN apt-get update && apt-get install -y libxt6
 
 RUN R -e "devtools::install_github('B-Gendron/lunglog')"
 
-RUN R -e "install.packages(c('DT', 'markdown', 'knitr'))"
+RUN R -e "install.packages(c('DT', 'markdown', 'knitr', 'png'))"
 
 WORKDIR /home/app
 
